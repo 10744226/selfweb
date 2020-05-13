@@ -1,0 +1,484 @@
+	body{
+		background-image: url("img/2.jpg") ;
+		background-size: cover;
+		min-width:100%;margin:0;padding:0;position:relative;
+		background-attachment:fixed;
+		font-family: "YouYuan","微軟正黑體";
+	}
+	.s_back{
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		border-radius: 20px;
+		opacity: 0.96;
+		margin-top: 5%;
+		margin-left:  20% ;
+		margin-right:  20%;
+		margin-bottom: 3%;
+		height: 3000px;
+		max-width: 3000px;
+		box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-moz-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-o-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	}
+	.box {
+  		display:flex;
+	}
+
+	.box .inner{
+  		margin-top: 80px;
+  		width:200px;
+  		height:100px;
+  		line-height:100px;
+  		font-size:2em;
+  		font-family:sans-serif;
+  		font-weight:bold;
+  		white-space:nowrap;
+  		overflow:hidden;
+	}
+
+	.box .inner:first-child {
+  		opacity: 0.8;
+  		background-color:	#FFFFFF;
+  		color:#000000;
+  		transform-origin:left;
+  		transform:perspective(300px) rotateY(-67.3deg);
+	}
+
+	.box .inner:last-child {
+		opacity: 0.8;
+  		background-color:	#4F4F4F;
+  		color:#FFFFFF;
+  		transform-origin:right;
+  		transform:perspective(300px) rotateY(67.3deg);
+	}
+
+	.box .inner span{
+  		position:absolute;
+  		animation: marquee 5s linear infinite;
+	}
+
+	.box .inner:first-child span{
+ 		animation-delay:2.5s;
+  		left:-100%;
+	}
+
+	@keyframes marquee {
+  	from{
+    	left:100%;
+  	}  
+  	to {
+    	left:-100%;
+  	}
+}
+ 	nav > ul {
+    	box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-moz-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-o-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+    	background-color: rgb(230, 230, 230);
+    	list-style: none; 
+    	margin: 0px 10px 10px; 
+    	padding: 0;
+    	border-radius: 20px;
+	}
+
+	nav a {
+    	color: inherit;
+    	display: block;
+    	font-size: 2rem;
+    	padding: 10px;
+    	text-decoration: none;
+    	color: white; text-shadow: black 0.1em 0.1em 0.2em
+	}
+
+	.navb{
+		background-color: rgb(115, 115, 115);
+	}
+	nav li:hover{
+		background-color: rgb(115, 115, 115);
+		color: black;
+	}
+
+	.flex-nav {
+    	display: flex;
+    	justify-content: center;
+	}
+
+	.inline-block-nav {
+    	text-align: center;
+    	font-size: 0; 
+	}
+
+	.inline-block-nav > li {
+    	display: inline-block;
+	}
+
+	.article{
+		margin-top: 20px;
+		margin-left: 43px;
+		float: left;
+		width: 70%;
+		max-width: 70%;
+		height: 300px;
+		max-height: 300px;
+		background: 		#AE57A4;
+		padding: 20px 30px;
+		-webkit-flex: initial;
+		flex: initial;
+		box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-moz-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-o-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	}
+	.article p{
+		padding-top: 6px;
+		text-align: center;
+		font-size: 1.5rem;
+    	color: #FFFFFF;
+    	line-height: 38px;
+	} 
+
+	.me{
+		margin-top: 25px;
+		margin-right:550px; 
+		float: right;
+		width:250px;
+		height:150px;
+		max-width: 250px;
+		max-height: 150px;
+		border-radius: 20px;
+		border-style: inset;
+		border-width: 10px;
+		border-color: #DDBEBE;
+		box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-moz-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-o-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	}
+
+     
+	section{
+
+		margin-top: 20px;
+		margin-left: 20px;
+		float: left;
+		border-radius: 15px;
+		width:55%;
+		height:380px;
+		max-height: 380px;
+		max-width: 55%;
+		min-width: 55%;
+		min-height: 380px;
+		background-color: #E0E0E0;
+		padding: 20px 30px;
+		border-style: inset;
+		border-width: 10px;
+		border-color: #DDBEBE;
+		
+	}
+
+	.sectw{
+		-webkit-writing-mode: vertical-lr;
+		writing-mode: vertical-lr ;
+		font-size: 2.3rem;
+		font-weight: bolder;
+		float: left;
+		width: 1%;
+		max-width: 1%;
+		margin-top: 12%;
+		margin-left: -14px;
+		font-family: 標楷體;
+		text-shadow: 0 1px 0 #ccc, 
+
+               0 2px 0 #c9c9c9,
+
+               0 3px 0 #bbb,
+
+               0 4px 0 #b9b9b9,
+
+               0 5px 0 #aaa,
+
+               0 6px 1px rgba(0,0,0,.1),
+
+               0 0 5px rgba(0,0,0,.1),
+
+               0 1px 3px rgba(0,0,0,.3),
+
+               0 3px 5px rgba(0,0,0,.2),
+
+               0 5px 10px rgba(0,0,0,.25),
+
+               0 10px 10px rgba(0,0,0,.2),
+
+               0 20px 20px rgba(0,0,0,.15);
+	}
+
+	.sectw2{
+		-webkit-writing-mode: vertical-lr;
+		writing-mode: vertical-lr ;
+		font-size: 2.3rem;
+		font-weight: bolder;
+		float: left;
+		width: 1%;
+		max-width: 1%;
+		margin-top: 18%;
+		margin-left: -12px;
+		font-family: 標楷體;
+		text-shadow: 0 1px 0 #ccc, 
+
+               0 2px 0 #c9c9c9,
+
+               0 3px 0 #bbb,
+
+               0 4px 0 #b9b9b9,
+
+               0 5px 0 #aaa,
+
+               0 6px 1px rgba(0,0,0,.1),
+
+               0 0 5px rgba(0,0,0,.1),
+
+               0 1px 3px rgba(0,0,0,.3),
+
+               0 3px 5px rgba(0,0,0,.2),
+
+               0 5px 10px rgba(0,0,0,.25),
+
+               0 10px 10px rgba(0,0,0,.2),
+
+               0 20px 20px rgba(0,0,0,.15);
+	}
+	.histo{
+		font-weight: bolder;
+		margin: 50px 21px;
+		float: left;
+		border-radius: 15px;
+		font-size: 2.5rem;
+		text-align: center;
+		width:55%;
+		height:50px;
+		background-color: 		#E0E0E0;
+		padding: 20px 30px;
+		font-family: 標楷體;
+		border-style: inset;
+		border-width: 10px;
+		border-color: #DDBEBE;
+		text-shadow: 0 1px 0 #ccc, 
+
+               0 2px 0 #c9c9c9,
+
+               0 3px 0 #bbb,
+
+               0 4px 0 #b9b9b9,
+
+               0 5px 0 #aaa,
+
+               0 6px 1px rgba(0,0,0,.1),
+
+               0 0 5px rgba(0,0,0,.1),
+
+               0 1px 3px rgba(0,0,0,.3),
+
+               0 3px 5px rgba(0,0,0,.2),
+
+               0 5px 10px rgba(0,0,0,.25),
+
+               0 10px 10px rgba(0,0,0,.2),
+
+               0 20px 20px rgba(0,0,0,.15);
+	}
+
+	div.n4{
+			margin-top: 1%;
+			width: 1400px;
+			height:1700px;
+		}
+	.sch2{
+		width:150px;
+		height:100px;
+		}
+	.sch1{
+   		border-radius: 15px;
+   		margin-left: 60px;
+   		position: relative;
+   		width:150px;height:100px;
+		margin-top: 50px;
+        border:11px solid #8CEA00;
+		}
+	.comment{
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width:150px;
+		height:100px;
+    	background: rgb(101, 101, 101, 0.6);
+    	color:  #FFFF37;
+    	opacity: 0;
+		}
+	.comment h1{
+    	text-align: center;
+    	padding-top: 10%;
+		font-size: 25px;
+		}
+	.sch1 a:hover .comment{
+    	opacity: 1;           
+		}
+	.sch3 {	
+   		float: right;
+   		border-radius: 15px;
+   		margin-left: 330px;
+   		position: relative;
+   		width:150px;
+		height:100px;
+		margin-top: -295px;
+        border:11px solid #8CEA00;
+		}
+	.sch3_1{
+		width:150px;
+		height:100px;
+		}
+	.comment1{
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width:150px;
+		height:100px;
+    	background: rgb(101, 101, 101, 0.6);
+    	color:  #FFFF37;
+    	opacity: 0;
+		}
+	.comment1 h1{
+    	text-align: center;
+    	padding-top: 10%;
+		font-size: 25px;
+		}
+	.sch3 a:hover .comment1{
+    	opacity: 1;   
+    	}
+    .sch4 {	
+    	float: right;
+    	border-radius: 15px;
+   		margin-left: 330px;
+   		position: relative;
+   		width:150px;
+		height:100px;
+		margin-top: -120px;
+        border:11px solid #8CEA00;
+		}
+	.sch4_1{
+		width:150px;
+		height:100px;
+		}
+	.comment2{
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width:150px;
+		height:100px;
+    	background: rgb(101, 101, 101, 0.6);
+    	color:  #FFFF37;
+    	opacity: 0;
+		}
+	.comment2 h1{
+    	text-align: center;
+    	padding-top: 10%;
+		font-size: 25px;
+		}
+	.sch4 a:hover .comment2{
+    	opacity: 1;   
+    	}
+    .life{
+		font-weight: bolder;
+		margin-top: 50px;
+		margin-left: 21px;
+		float: left;
+		border-radius: 15px;
+		font-size: 2.5rem;
+		text-align: center;
+		width:65%;
+		height:50px;
+		background-color: 		#E0E0E0;
+		padding: 20px 30px;
+		font-family: 標楷體;
+		border-style: inset;
+		border-width: 10px;
+		border-color: #DDBEBE;
+		text-shadow: 0 1px 0 #ccc, 
+
+               0 2px 0 #c9c9c9,
+
+               0 3px 0 #bbb,
+
+               0 4px 0 #b9b9b9,
+
+               0 5px 0 #aaa,
+
+               0 6px 1px rgba(0,0,0,.1),
+
+               0 0 5px rgba(0,0,0,.1),
+
+               0 1px 3px rgba(0,0,0,.3),
+
+               0 3px 5px rgba(0,0,0,.2),
+
+               0 5px 10px rgba(0,0,0,.25),
+
+               0 10px 10px rgba(0,0,0,.2),
+
+               0 20px 20px rgba(0,0,0,.15);
+}
+	.photo{
+		margin-right: 20px;
+		float: left;
+		width: 700px;
+		max-width: 700px;
+		height: 350px;
+
+		padding: 10px 10px 0px 10px;
+	}
+
+	.pic{
+				overflow: scroll;
+  		float: left;
+  		border: 1px solid #ddd;
+  		border-radius: 7px;
+  		padding: 5px;
+  		width:200px;height: 140px;
+  		transition: all 1s ease-out;
+  		margin: 20px 20px;
+	}
+	.pic:hover {
+  		box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  		transform:scale(1.1,1.1);
+	}
+	aside{
+		border-radius: 20px;
+		float: right;
+		width: 25%;	
+		background-color:  	#4DFFFF;
+		border-style:solid;
+		margin-left: 200px;
+		margin-top: -1880px;
+		border-radius: 10px;
+		height: 1200px;
+		opacity: 0.8;
+		word-wrap: break-word;
+		word-break: break-all;
+		border-style: inset;
+		border-width: 10px;
+		border-color: #DDBEBE;
+		box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-moz-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+		-o-box-shadow: inset 0px 0px 50px 0px #ABABAB,5px 5px 5px 1px #242424;
+	}
+	.aside_aa{
+		background-color: rgb(117, 253, 255,0.5) ;
+	}
+	aside p {
+		margin-left: 10%;
+		margin-right:10%; 
+		font-size: 24px;
+		font-family: "標楷體";
+	}
